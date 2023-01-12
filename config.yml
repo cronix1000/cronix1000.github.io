@@ -1,0 +1,90 @@
+baseURL: "https://cronix1000.github.io/"
+title: Great Site
+paginate: 5
+theme: charlolamode
+
+
+
+menu:
+    main:
+        - name: Contact
+          url: contact/
+          weight: 30
+        - name: Articles
+          url: articles/
+          weight: 20
+        - name: Projects
+          url: projects
+          weight: 15
+
+     # - name: Categories
+        #   url: categories/
+        #   weight: 10
+        # - name: new Tab
+        #   url: mewtab/
+        #   weight: defines order of tabs
+   
+
+
+params:
+    author: Idan Gomberg
+
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        enabled: true
+        title: Idan Gomberg
+        description: 
+           Computer Science Student. 
+        
+        imageUrl: "/images/sProfile.jpg"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        # buttons:
+        #     - name: Don't click me
+        #       url: https://github.com/cronix1000
+    mainSections:
+      - articles
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/cronix100"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/idan-gomberg-481741137/"
+
+      # add more social icons. find more in svg.html file
+      # - name: youtube
+      #   url: yoururl
+      # - name: twitter
+      #   url: yoururl
+      # - name: facebook
+      #   url: yoururl
+
+
+    # change favicon in images folder (icon for web tab)
+    assets:
+          favicon: "/images/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
+
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+
